@@ -1,0 +1,20 @@
+header, footer {
+  width: 90%;
+  margin-left: 5%;
+}
+header {
+  div{
+    a {
+      img {
+        width: 300px;
+      }
+    }
+    nav {
+      a {
+        &.active{
+          font-weight: bold!important;
+        }
+      }
+    }
+  }
+}
